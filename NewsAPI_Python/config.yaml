@@ -1,0 +1,53 @@
+settings:
+  base_url_everything: https://newsapi.org/v2/everything
+  api_key: 7e188c23317647eaac7bcd1cd7b833db
+  base_url_top_headlines: https://newsapi.org/v2/top-headlines
+
+everything_params:
+  sortBy :
+    - relevancy
+    - popularity
+    - publishedAt
+
+  date_format : Y-m-d
+  searchIn :
+    - title
+    - description
+    - content
+  language :
+    - ar
+    - de
+    - en
+    - es
+    - fr
+    - he
+    - it
+    - nl
+    - no
+    - pt
+    - ru
+    - sv
+    - ud
+    - zh
+
+top_headlines_params :
+  category:
+    - business
+    - entertainment
+    - general
+    - health
+    - science
+    - sports
+    - technology
+  country:
+    - us
+    - ca
+    - au
+    - in
+    - fr
+    - ru
+    - jp
+    - it
+
+
+
